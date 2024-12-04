@@ -3,7 +3,7 @@
 Profile Page's
 @endsection
 @section('contant')
-<x-breadcum  sabbir="Profile Page"></x-breadcum>
+<x-breadcum  tanvir="Profile Page"></x-breadcum>
     <!DOCTYPE html>
     <html lang="en">
 

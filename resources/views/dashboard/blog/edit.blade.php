@@ -3,7 +3,7 @@
     Blog edit Page's
 @endsection
 @section('contant')
-    <x-breadcum sabbir="Blog's edit Page"></x-breadcum>
+    <x-breadcum tanvir="Blog's edit Page"></x-breadcum>
     <div class="row">
         <div class="col-lg-12">
             <div class="card">

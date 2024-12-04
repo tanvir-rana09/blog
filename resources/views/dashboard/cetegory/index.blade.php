@@ -3,7 +3,7 @@
     Cetegry Page's
 @endsection
 @section('contant')
-    <x-breadcum sabbir="Cetegory's  Page"></x-breadcum>
+    <x-breadcum tanvir="Cetegory's  Page"></x-breadcum>
     <div class="row">
         <div class="col-lg-7">
             <div class="card">
@@ -35,12 +35,12 @@
                                         <p class="fw-normal mb-1">{{ $cetegorie->title }}</p>
                                     </td>
                                     <td>
-                                        <form id="sabbirkharap{{ $cetegorie->id }}"
+                                        <form id="tanvirkharap{{ $cetegorie->id }}"
                                             action="{{ route('category.status', $cetegorie->id) }}" method="POST">
                                             @csrf
                                             <div class="form-check form-switch">
                                                 <input
-                                                    onchange="document.querySelector('#sabbirkharap{{ $cetegorie->id }}').submit()"
+                                                    onchange="document.querySelector('#tanvirkharap{{ $cetegorie->id }}').submit()"
                                                     class="form-check-input" type="checkbox" role="switch"
                                                     id="flexSwitchCheckChecked"
                                                     {{ $cetegorie->status == 'active' ? 'checked' : '' }}>

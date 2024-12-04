@@ -5,7 +5,7 @@
 @endsection
 
 @section('contant')
-    <x-breadcum sabbir="Blog's Show Page"></x-breadcum>
+    <x-breadcum tanvir="Blog's Show Page"></x-breadcum>
 
 
     <div class="col-lg-12">

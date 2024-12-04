@@ -11,10 +11,10 @@ class breadcum extends Component
     /**
      * Create a new component instance.
      */
-    public $sabbir;
-    public function __construct($sabbir)
+    public $tanvir;
+    public function __construct($tanvir)
     {
-        $this->sabbir = $sabbir;
+        $this->tanvir = $tanvir;
     }
 
     /**

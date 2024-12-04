@@ -3,7 +3,7 @@
     Blog Create Page's
 @endsection
 @section('contant')
-    <x-breadcum sabbir="Blog's Show Page"></x-breadcum>
+    <x-breadcum tanvir="Blog's Show Page"></x-breadcum>
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
